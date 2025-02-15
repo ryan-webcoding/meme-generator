@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 10px 3px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+  gap: 4px;
+}
+.title {
+  width: 240px;
+  font-size: 26px;
+  color: white;
+}
+
+.titleImg {
+  width: 40px;
+  height: auto;
+}
